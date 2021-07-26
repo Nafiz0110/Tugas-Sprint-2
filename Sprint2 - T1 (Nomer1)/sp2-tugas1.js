@@ -1,7 +1,9 @@
 function hitungLuasPersegiPanjang(panjang,lebar) {
         luas = panjang * lebar
-        document.write(`Luas Persegi Panjang : ` + luas)
+        document.write(`Panjang : ` + ipanjang + "<br/>")
+        document.write(`Lebar : ` + ilebar + "<br/>")
+        document.write(`Luas Persegi Panjang : ` + luas + "<br/>")
 }
-panjang = prompt("Masukan Nilai Panjang");
-lebar= prompt("Masukan NIlai Lebar");
+ipanjang = prompt("Masukan Nilai Panjang");
+ilebar= prompt("Masukan NIlai Lebar");
 hitungLuasPersegiPanjang(panjang,lebar)
