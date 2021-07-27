@@ -3,4 +3,4 @@ let listDesaBantul  = [
 ['Dlingo :',	'Dlingo','Jatimulyo','Mangunan','Muntuk','Temuwuh','Terong'],
 ['Kasihan : ','Bangunjiwo','Ngestiharjo','Tamantirto','Tirtonirmolo']
 ];
-console.log(listDesaBantul);
+console.log(listDesaBantul.toString());
