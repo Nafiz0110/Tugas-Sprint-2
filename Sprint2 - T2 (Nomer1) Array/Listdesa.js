@@ -1,6 +1,6 @@
 let listDesaBantul  = [
-['Danurejan : ', 'Bausasran','Tegal Panggung','Suryatmajan'],
-['Gedong Tengen :','Sosromenduran','Pringgokusuman'],
-['Gondomanann : ','Prawirodirjan','Ngupasan']
+['Bantul: ', 'Bantul','Palbapang','Ringinharjo','Sabdodadi','Trirenggo'],
+['Dlingo :',	'Dlingo','Jatimulyo','Mangunan','Muntuk','Temuwuh','Terong'],
+['Kasihan : ','Bangunjiwo','Ngestiharjo','Tamantirto','Tirtonirmolo']
 ];
-console.log(listDesaBantul);
+console.log(listDesaBantul[i]);
