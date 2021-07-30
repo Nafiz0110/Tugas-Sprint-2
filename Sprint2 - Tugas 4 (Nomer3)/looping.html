@@ -7,14 +7,23 @@
 <p id="demo"></p>
 
 <script>
-const cars = ['Santai', 'Berkuliatas', 'I Love Coding','Berkualitas', 'Santai','Berkuliatas', 'Santai', 'Berkualitas','I Love Coding','Berkualitas', 'Santai','Berkualitas', 'Santai','Berkualitas', 'I Love Coding',,'Berkualitas', 'Santai','Berkualitas', 'Santai','Berkualitas'];
+// const cars = ['Santai', 'Berkuliatas', 'I Love Coding','Berkualitas', 'Santai','Berkuliatas', 'Santai', 'Berkualitas','I Love Coding','Berkualitas', 'Santai','Berkualitas', 'Santai','Berkualitas', 'I Love Coding',,'Berkualitas', 'Santai','Berkualitas', 'Santai','Berkualitas'];
 
-let text = "";
-for (let i = 0; i < cars.length; i++) {
-  text += i + cars[i] + "<br>";
-}
+// let text = "";
+// for (let i = 0; i < cars.length; i++) {
+//   text += i + cars[i] + "<br>";
+// }
 
-document.getElementById("demo").innerHTML = text;
+// document.getElementById("demo").innerHTML = text;
+for(i = 1; i <= 20; i++)
+  if(i % 2 != 0 && i % 3 == 0) {
+    document.write(i + '.' + ' I Love You Coding' + '<br>')
+  } else if (i % 2 != 0) {
+    document.write(i +'.' + ' Santai' + '<br>')
+  } else if (i % 2 == 0) {
+    document.write(i +'.' + ' Berkualitas' + '<br>');
+  }
+
 </script>
 
 </body>
